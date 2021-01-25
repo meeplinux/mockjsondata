@@ -1,7 +1,9 @@
 {
 test:[
   {
-  "key1":"value1",
+  "key1":"value1_1",
+    "key2":"value1_2",
+    "key3":"value1_3",
     "Graph_x_axis": [
             "2021-01-08",
             "2021-01-09",
@@ -36,7 +38,9 @@ test:[
         ]
   },
   {
-    "key1":"value2",
+    "key1":"value2_1",
+    "key2":"value2_2",
+    "key3":"value2_3",
     "Graph_x_axis": [
             "2021-01-08",
             "2021-01-09",
