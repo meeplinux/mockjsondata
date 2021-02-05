@@ -1,91 +1,73 @@
-{"test":{
-"top_g":[
-  {
-  "key1":"value1_1",
-    "key2":"value1_2",
-    "key3":20,
-    "key4":170,
-    "Graph": [{"date":"2021-01-08", "value":0},
-              {"date":"2021-01-09", "value":0},
-              {"date":"2021-01-10", "value":0},
-              {"date":"2021-01-11", "value":0},
-              {"date":"2021-01-12", "value":0},
-              {"date":"2021-01-13", "value":0},
-              {"date":"2021-01-14", "value":0},
-              {"date":"2021-01-15", "value":0},
-              {"date":"2021-01-16", "value":0},
-              {"date":"2021-01-17", "value":13},
-              {"date":"2021-01-18", "value":24},
-              {"date":"2021-01-19", "value":7},
-              {"date":"2021-01-20", "value":0},
-              {"date":"2021-01-21", "value":6}
-             ]
-  },
-  {
-    "key1":"value2_1",
-    "key2":"value2_2",
-    "key3":32,
-    "key4":172,
-    "Graph": [{"date":"2021-01-08", "value":4},
-              {"date":"2021-01-09", "value":0},
-              {"date":"2021-01-10", "value":0},
-              {"date":"2021-01-11", "value":3},
-              {"date":"2021-01-12", "value":5},
-              {"date":"2021-01-13", "value":4},
-              {"date":"2021-01-14", "value":2},
-              {"date":"2021-01-15", "value":0},
-              {"date":"2021-01-16", "value":1},
-              {"date":"2021-01-17", "value":1},
-              {"date":"2021-01-18", "value":1},
-              {"date":"2021-01-19", "value":0},
-              {"date":"2021-01-20", "value":15},
-              {"date":"2021-01-21", "value":21}
-              ]
-  }
-  ],
-  "top_l":[
-  {
-  "key1":"value1_1",
-    "key2":"value1_2",
-    "key3":32,
-    "key4":172,
-    "Graph": [{"date":"2021-01-08", "value":90},
-              {"date":"2021-01-09", "value":50},
-              {"date":"2021-01-10", "value":0},
-              {"date":"2021-01-11", "value":40},
-              {"date":"2021-01-12", "value":0},
-              {"date":"2021-01-13", "value":0},
-              {"date":"2021-01-14", "value":0},
-              {"date":"2021-01-15", "value":0},
-              {"date":"2021-01-16", "value":0},
-              {"date":"2021-01-17", "value":13},
-              {"date":"2021-01-18", "value":24},
-              {"date":"2021-01-19", "value":7},
-              {"date":"2021-01-20", "value":0},
-              {"date":"2021-01-21", "value":6}
-             ]
-  },
-  {
-    "key1":"value2_1",
-    "key2":"value2_2",
-    "key3":32,
-    "key4":172,
-    "Graph": [{"date":"2021-01-08", "value":88},
-              {"date":"2021-01-09", "value":77},
-              {"date":"2021-01-10", "value":66},
-              {"date":"2021-01-11", "value":55},
-              {"date":"2021-01-12", "value":44},
-              {"date":"2021-01-13", "value":33},
-              {"date":"2021-01-14", "value":32},
-              {"date":"2021-01-15", "value":0},
-              {"date":"2021-01-16", "value":1},
-              {"date":"2021-01-17", "value":1},
-              {"date":"2021-01-18", "value":1},
-              {"date":"2021-01-19", "value":0},
-              {"date":"2021-01-20", "value":15},
-              {"date":"2021-01-21", "value":21}
-              ]
-  }
+{"test":
+{"top_gainers": [
+	{"entity": "entity1", 
+	"category": "LOC", 
+	"Current Rank": 10, 
+	"Previous Rank": 141, 
+	"Rank Change": 131, 
+	"Previous_Count": 14, 
+	"Current_Count": 228, 
+	"Avg_Daily_Count_Previous": 2.33, 
+	"Avg_Daily_Count_Current": 76.0, 
+	"Graph": [
+		{"date": "2021-01-26", "value": 0}, 
+		{"date": "2021-01-27", "value": 4}, 
+		{"date": "2021-01-28", "value": 1}, 
+		{"date": "2021-01-29", "value": 4}, 
+		{"date": "2021-01-30", "value": 3}, 
+		{"date": "2021-01-31", "value": 2}, 
+		{"date": "2021-02-01", "value": 124}, 
+		{"date": "2021-02-02", "value": 83}, 
+		{"date": "2021-02-03", "value": 21}]}, 
+		
+	{"entity": "entity2", 
+	"category": "ORG", 
+	"Current Rank": 45, 
+	"Previous Rank": 154, 
+	"Rank Change": 109, 
+	"Previous_Count": 1, 
+	"Current_Count": 51, 
+	"Avg_Daily_Count_Previous": 0.17, 
+	"Avg_Daily_Count_Current": 17.0, 
+	"Graph": [{"date": "2021-01-26", "value": 0}, {"date": "2021-01-27", "value": 0}, {"date": "2021-01-28", "value": 0}, {"date": "2021-01-29", "value": 0}, {"date": "2021-01-30", "value": 0}, {"date": "2021-01-31", "value": 1}, {"date": "2021-02-01", "value": 40}, {"date": "2021-02-02", "value": 11}, {"date": "2021-02-03", "value": 0}]}],
+
+"top_losers": [
+	{"entity": "entity3", 
+	"category": "LOC", 
+	"Current Rank": 82, 
+	"Previous Rank": 50, 
+	"Rank Change": -32, 
+	"Previous_Count": 141, 
+	"Current_Count": 10, 
+	"Avg_Daily_Count_Previous": 23.5, 
+	"Avg_Daily_Count_Current": 3.33, 
+	"Graph": [{"date": "2021-01-26", "value": 7}, {"date": "2021-01-27", "value": 79}, {"date": "2021-01-28", "value": 12}, {"date": "2021-01-29", "value": 9}, {"date": "2021-01-30", "value": 20}, {"date": "2021-01-31", "value": 14}, {"date": "2021-02-01", "value": 2}, {"date": "2021-02-02", "value": 8}, {"date": "2021-02-03", "value": 0}]}, 
+	
+	{"entity": "entity4", 
+	"category": "LOC", 
+	"Current Rank": 77, 
+	"Previous Rank": 47, 
+	"Rank Change": -30, 
+	"Previous_Count": 149, 
+	"Current_Count": 15, 
+	"Avg_Daily_Count_Previous": 24.83, 
+	"Avg_Daily_Count_Current": 5.0, 
+	"Graph": [{"date": "2021-01-26", "value": 51}, {"date": "2021-01-27", "value": 32}, {"date": "2021-01-28", "value": 27}, {"date": "2021-01-29", "value": 20}, {"date": "2021-01-30", "value": 16}, {"date": "2021-01-31", "value": 3}, {"date": "2021-02-01", "value": 4}, {"date": "2021-02-02", "value": 10}, {"date": "2021-02-03", "value": 1}]}
+	]
+},
+"lookup":{
+    [
+	{"url": "https://www.url1.com", 
+	"date": "2020-12-29", 
+	"mentions": 2}, 
+	
+	{"url": "https://www.url2.com", 
+	"date": "2020-12-29", 
+	"mentions": 7}, 
+	
+	{"url": "https://url3.com", 
+	"date": "2020-12-29", 
+	"mentions": 2}
   ]
-}
+  }
 }
